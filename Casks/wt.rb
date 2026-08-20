@@ -28,6 +28,8 @@ cask "wt" do
   desc "Git worktree manager with config-driven placement"
   homepage "https://github.com/AirConditionedSoftware/wt"
 
+  deprecate! date: "2026-08-20", because: "it was renamed to AirConditionedSoftware/tap/treehouse (the command is now th)"
+
   livecheck do
     skip "Auto-generated on release."
   end
